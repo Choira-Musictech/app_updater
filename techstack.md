@@ -1,7 +1,7 @@
 <!--
 &lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
-larryaasen/upgrader is built on the following main stack:
+Choira/upgrader is built on the following main stack:
 
 - [CircleCI](https://circleci.com/) – Continuous Integration
 - [Gradle](https://www.gradle.org/) – Java Build Tools
@@ -27,7 +27,7 @@ Full tech stack [here](/techstack.md)
 
 &lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
-larryaasen/upgrader is built on the following main stack:
+Choira/upgrader is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg' alt='CircleCI'/> [CircleCI](https://circleci.com/) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/975/gradlephant-social-black-bg.png' alt='Gradle'/> [Gradle](https://www.gradle.org/) – Java Build Tools
@@ -54,7 +54,7 @@ Full tech stack [here](/techstack.md)
 <div align="center">
 
 # Tech Stack File
-![](https://img.stackshare.io/repo.svg "repo") [larryaasen/upgrader](https://github.com/larryaasen/upgrader)![](https://img.stackshare.io/public_badge.svg "public")
+![](https://img.stackshare.io/repo.svg "repo") [Choira/upgrader](https://github.com/Choira-Musictech/app_updater)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
 |32<br/>Tools used|12/14/23 <br/>Report generated|
 |------|------|

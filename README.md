@@ -1,10 +1,10 @@
 # Upgrader
 
-[![Build Status](https://travis-ci.com/larryaasen/upgrader.svg?branch=master)](https://app.travis-ci.com/github/larryaasen/upgrader)
-[![codecov](https://codecov.io/gh/larryaasen/upgrader/branch/master/graph/badge.svg)](https://app.codecov.io/gh/larryaasen/upgrader)
+[![Build Status](https://travis-ci.com/Choira/upgrader.svg?branch=master)](https://app.travis-ci.com/github/Choira/upgrader)
+[![codecov](https://codecov.io/gh/Choira/upgrader/branch/master/graph/badge.svg)](https://app.codecov.io/gh/Choira/upgrader)
 [![pub package](https://img.shields.io/pub/v/upgrader.svg)](https://pub.dartlang.org/packages/upgrader)
-[![GitHub Stars](https://img.shields.io/github/stars/larryaasen/upgrader.svg)](https://github.com/larryaasen/upgrader/stargazers)
-<a href="https://www.buymeacoffee.com/larryaasen">
+[![GitHub Stars](https://img.shields.io/github/stars/Choira/upgrader.svg)](https://github.com/Choira-Musictech/app_updater/stargazers)
+<a href="https://www.buymeacoffee.com/Choira">
   <img alt="Buy me a coffee" src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-yellow.svg">
 </a>
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/upgraderpackage.svg?style=social&label=Follow%20%40upgraderpackage)](https://twitter.com/upgraderpackage)
@@ -281,7 +281,7 @@ The Appcast class can be used stand alone or as part of `upgrader`.
 This is an Appcast example for Android.
 ```dart
 static const appcastURL =
-    'https://raw.githubusercontent.com/larryaasen/upgrader/master/test/testappcast.xml';
+    'https://raw.githubusercontent.com/Choira/upgrader/master/test/testappcast.xml';
 final upgrader = Upgrader(
     appcastConfig:
         AppcastConfiguration(url: appcastURL, supportedOS: ['android']));
@@ -319,7 +319,7 @@ Widget build(BuildContext context) {
 ### Appcast Class
 ```dart
 final appcast = Appcast();
-final items = await appcast.parseAppcastItemsFromUri('https://raw.githubusercontent.com/larryaasen/upgrader/master/test/testappcast.xml');
+final items = await appcast.parseAppcastItemsFromUri('https://raw.githubusercontent.com/Choira/upgrader/master/test/testappcast.xml');
 final bestItem = appcast.bestItem();
 ```
 
@@ -492,7 +492,7 @@ itunes_lookup all results:
 
 ## Reporting Issues
 
-Please submit issue reports [here on GitHub](https://github.com/larryaasen/upgrader/issues/new/choose).
+Please submit issue reports [here on GitHub](https://github.com/Choira-Musictech/app_updater/issues/new/choose).
 To better assist in analyzing issues, please include all of the `upgrader` log,
 which can be enabled by setting `debugLogging` to `true`.
 
@@ -534,18 +534,18 @@ Also, please include the upgrader version number from the pubspec.lock file, whi
 
 
 ## Contributing
-All [comments](https://github.com/larryaasen/upgrader/issues) and [pull requests](https://github.com/larryaasen/upgrader/pulls) are welcome.
+All [comments](https://github.com/Choira-Musictech/app_updater/issues) and [pull requests](https://github.com/Choira-Musictech/app_updater/pulls) are welcome.
 
 ## Donations / Sponsor
 
-Please sponsor or donate to the creator of `upgrader` on [Flattr](https://flattr.com/@larryaasen) or [Patreon](https://www.patreon.com/larryaasen).
+Please sponsor or donate to the creator of `upgrader` on [Flattr](https://flattr.com/@Choira) or [Patreon](https://www.patreon.com/Choira).
 
 ## Builds
 
-[![Build Status](https://travis-ci.com/larryaasen/upgrader.svg?branch=master)](https://app.travis-ci.com/github/larryaasen/upgrader)
+[![Build Status](https://travis-ci.com/Choira/upgrader.svg?branch=master)](https://app.travis-ci.com/github/Choira/upgrader)
 
 [![Codemagic](https://api.codemagic.io/apps/5ffb7888eb8402dcd1928753/flutter-package/status_badge.svg)](https://codemagic.io/apps/5ffb7888eb8402dcd1928753/flutter-package/latest_build)
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/larryaasen/upgrader/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/larryaasen/upgrader/tree/master)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Choira/upgrader/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/Choira/upgrader/tree/master)
 
-[![GitHub main workflow](https://github.com/larryaasen/upgrader/actions/workflows/main.yml/badge.svg)](https://github.com/larryaasen/upgrader/actions/workflows/main.yml)
+[![GitHub main workflow](https://github.com/Choira-Musictech/app_updater/actions/workflows/main.yml/badge.svg)](https://github.com/Choira-Musictech/app_updater/actions/workflows/main.yml)

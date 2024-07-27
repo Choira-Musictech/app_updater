@@ -1,8 +1,8 @@
-repo_name: larryaasen/upgrader
+repo_name: Choira/upgrader
 report_id: 17d40cffd39c40ec47d032e816efb325
 repo_type: Public
 timestamp: '2023-12-14T09:27:18+00:00'
-requested_by: larryaasen
+requested_by: Choira
 provider: github
 branch: master
 detected_tools_count: 32
@@ -88,7 +88,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
-  detection_source_url: https://github.com/larryaasen/upgrader/blob/master/example/android/app/build.gradle
+  detection_source_url: https://github.com/Choira-Musictech/app_updater/blob/master/example/android/app/build.gradle
   detection_source: example/android/app/build.gradle
   last_updated_by: Larry Aasen
   last_updated_on: 2018-12-03 03:26:33.000000000 Z
@@ -210,7 +210,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
-  detection_source_url: https://github.com/larryaasen/upgrader/blob/master/example/android/app/build.gradle
+  detection_source_url: https://github.com/Choira-Musictech/app_updater/blob/master/example/android/app/build.gradle
   detection_source: example/android/app/build.gradle
   last_updated_by: Larry Aasen
   last_updated_on: 2018-12-03 03:26:33.000000000 Z
@@ -262,7 +262,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: https://github.com/larryaasen/upgrader/blob/master/pubspec.yaml
+  detection_source_url: https://github.com/Choira-Musictech/app_updater/blob/master/pubspec.yaml
   detection_source: pubspec.yaml
   last_updated_by: Larry Aasen
   last_updated_on: 2023-05-11 12:11:44.000000000 Z
@@ -275,7 +275,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: https://github.com/larryaasen/upgrader/blob/master/example/pubspec.yaml
+  detection_source_url: https://github.com/Choira-Musictech/app_updater/blob/master/example/pubspec.yaml
   detection_source: example/pubspec.yaml
   last_updated_by: Larry Aasen
   last_updated_on: 2023-06-01 11:24:32.000000000 Z
@@ -288,7 +288,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: https://github.com/larryaasen/upgrader/blob/master/pubspec.yaml
+  detection_source_url: https://github.com/Choira-Musictech/app_updater/blob/master/pubspec.yaml
   detection_source: pubspec.yaml
   last_updated_by: Larry Aasen
   last_updated_on: 2023-05-11 12:11:44.000000000 Z
@@ -301,7 +301,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: https://github.com/larryaasen/upgrader/blob/master/pubspec.yaml
+  detection_source_url: https://github.com/Choira-Musictech/app_updater/blob/master/pubspec.yaml
   detection_source: pubspec.yaml
   last_updated_by: Larry Aasen
   last_updated_on: 2023-11-07 13:12:06.000000000 Z
@@ -325,7 +325,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: https://github.com/larryaasen/upgrader/blob/master/pubspec.yaml
+  detection_source_url: https://github.com/Choira-Musictech/app_updater/blob/master/pubspec.yaml
   detection_source: pubspec.yaml
   last_updated_by: Larry Aasen
   last_updated_on: 2023-05-11 12:11:44.000000000 Z
@@ -339,7 +339,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: https://github.com/larryaasen/upgrader/blob/master/pubspec.yaml
+  detection_source_url: https://github.com/Choira-Musictech/app_updater/blob/master/pubspec.yaml
   detection_source: pubspec.yaml
   last_updated_by: Larry Aasen
   last_updated_on: 2023-11-28 13:41:54.000000000 Z
@@ -352,7 +352,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: https://github.com/larryaasen/upgrader/blob/master/pubspec.yaml
+  detection_source_url: https://github.com/Choira-Musictech/app_updater/blob/master/pubspec.yaml
   detection_source: pubspec.yaml
   last_updated_by: Larry Aasen
   last_updated_on: 2018-12-03 03:26:33.000000000 Z

@@ -110,88 +110,94 @@ showModalBottomSheet(
    isDismissible: false,
 
   builder: (BuildContext context) {
-    return GestureDetector(
-         behavior: HitTestBehavior.opaque,
-      onVerticalDragStart: (_) {}, // Ignores vertical drag gestures
-    
-      child: Container(
-    
-        color: Color(0xff0f0e0f),
+    return WillPopScope(
+         onWillPop: () async {
+          // Return false to indicate that the bottom sheet should not be closed
+          return false;
+        },
+      child: GestureDetector(
+           behavior: HitTestBehavior.opaque,
+        onVerticalDragStart: (_) {}, // Ignores vertical drag gestures
+      
         child: Container(
-            padding: EdgeInsets.all(24.0),
-    
-          decoration: BoxDecoration(
-            color: Color(0xFF1E1E1E), // Updated to your specified color #1e1e1e
-            borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(20.0),
-              topRight: Radius.circular(20.0),
+      
+          color: Color(0xff0f0e0f),
+          child: Container(
+              padding: EdgeInsets.all(24.0),
+      
+            decoration: BoxDecoration(
+              color: Color(0xFF1E1E1E), // Updated to your specified color #1e1e1e
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(20.0),
+                topRight: Radius.circular(20.0),
+              ),
+              //  border: Border.all(color: Colors.grey, width: 1)
             ),
-            //  border: Border.all(color: Colors.grey, width: 1)
-          ),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: <Widget>[
-              SizedBox(
-                height: 10,
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Image.asset(
-                    gifImage,
-                    height: 50,
-                  ),
-                ],
-              ),
-              SizedBox(
-                height: 10,
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  SvgPicture.asset(
-                    imagesUp,
-                    width: 100,
-                    height: 100,
-                  )
-                ],
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              Text(
-                'Unlock the latest Choira features\n by updating the app NOW!',
-                style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w500),
-                textAlign: TextAlign.center,
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: InkWell(
-                  onTap: () => onUserUpdated(context, true),
-                  child: Container(
-                    alignment: Alignment.center,
-                    decoration: BoxDecoration(
-                      color: Color(0xffF1B103),
-                      borderRadius: BorderRadius.circular(25),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                SizedBox(
+                  height: 10,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      gifImage,
+                      height: 50,
                     ),
-                    width: double.infinity,
-                    height: 40,
-                    child: Text(
-                      "Update Now",
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600,
-                        color: Color(0xff262727),
+                  ],
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    SvgPicture.asset(
+                      imagesUp,
+                      width: 100,
+                      height: 100,
+                    )
+                  ],
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Text(
+                  'Unlock the latest Choira features\n by updating the app NOW!',
+                  style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w500),
+                  textAlign: TextAlign.center,
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: InkWell(
+                    onTap: () => onUserUpdated(context, true),
+                    child: Container(
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Color(0xffF1B103),
+                        borderRadius: BorderRadius.circular(25),
+                      ),
+                      width: double.infinity,
+                      height: 40,
+                      child: Text(
+                        "Update Now",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                          color: Color(0xff262727),
+                        ),
                       ),
                     ),
                   ),
-                ),
-              )
-            ],
+                )
+              ],
+            ),
           ),
         ),
       ),
